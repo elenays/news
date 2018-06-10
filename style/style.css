@@ -207,6 +207,7 @@ body {
 .main {
     background-color: #fff;
     margin: 0;
+    display: flex;
 }
 
 /*-------- Latest Posts -------*/
@@ -341,4 +342,97 @@ body {
     font: 11px Roboto;
     color: #b3b3b3;
     margin: 0 80px 0 9px;
+}
+
+/*------- Popular Posts ------*/
+
+.popular-posts__caption {
+    font: 16px Roboto;
+    color: #2d2d2d;
+    font-weight: 700;
+    margin: 0;
+    padding: 59px 0 12px 43px;
+}
+
+.popular-posts__block-img1 {
+    background-image: url("../img/popularPost1.jpg");
+    height: 65px;
+    width: 65px;
+}
+
+.popular-posts__block-img2 {
+    background-image: url("../img/popularPost2.jpg");
+    height: 65px;
+    width: 65px;
+}
+
+.popular-posts__block-img3 {
+    background-image: url("../img/popularPost3.jpg");
+    height: 65px;
+    width: 65px;
+}
+
+.popular-posts__block-img4 {
+    background-image: url("../img/popularPost4.jpg");
+    height: 65px;
+    width: 65px;
+}
+
+.popular-posts__block-text {
+    font: 14px Roboto;
+    color: #454545;
+    margin: 0 0 14px 0;
+    text-decoration: none;
+    display: block;
+}
+
+.popular-posts__block {
+    display: flex;
+}
+
+.popular-posts__block-container {
+    margin: 0 0 0 20px;
+}
+
+.popular-posts__icon-container {
+    display: flex;
+}
+
+.popular-posts__hr {
+    background-color: #e3e3e3;
+    height: 1px;
+    margin: 10px 0 10px 0;
+}
+
+.popular-posts__container {
+    border-top: 2px solid #000;
+    box-shadow: 0 0 10px #e3e3e3;
+    padding: 20px;
+    margin: 0 0 0 20px;
+}
+
+/*-------- join us ------*/
+
+.join-us {
+    display: flex;
+    margin: 50px 0 0 20px;
+}
+
+.join-us__facebook-img {
+    background-image: url("../img/facebook.png");
+    height: 105px;
+    width: 87px;
+}
+
+.join-us__twitter-img {
+    background-image: url("../img/twitter.jpg");
+    height: 105px;
+    width: 87px;
+    margin: 0 10px ;
+}
+
+.join-us__rss-img {
+    background-image: url("../img/rss.png");
+    height: 105px;
+    width: 87px;
 }
