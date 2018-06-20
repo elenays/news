@@ -7,6 +7,9 @@
 </head>
 <body>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
+
 <div class="background">
     <div class="wrapper">
 
@@ -197,6 +200,34 @@
                         </div>
                     </div>
                 </div>  <!-- закончен блок Latest posts -->
+
+                <div class="news-picture">
+                    <p class="news-picture__caption">News in Picture</p>
+                    <div class="news-picture__container">
+                        <a href="#"><div class="news-picture__main-picture"></div></a>
+                        <div class="news-picture__other">
+                            <div class="news-picture__line1">
+                                <a href="#"><div class="news-picture__other1"></div></a>
+                                <a href="#"><div class="news-picture__other2"></div></a>
+                                <a href="#"><div class="news-picture__other3"></div></a>
+                            </div>
+                            <div class="news-picture__line2">
+                                <a href="#"><div class="news-picture__other4"></div></a>
+                                <a href="#"><div class="news-picture__other5"></div></a>
+                                <a href="#"><div class="news-picture__other6"></div></a>
+                            </div>
+                            <div class="news-picture__line3">
+                                <a href="#"><div class="news-picture__other7"></div></a>
+                                <a href="#"><div class="news-picture__other8"></div></a>
+                                <a href="#"><div class="news-picture__other9"></div></a>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- закончен блок News in picture -->
+
+
+
+
             </div>
 
             <div class="column-2">
@@ -258,6 +289,22 @@
                         </div>
                     </div>
                 </div> <!-- закончен блок Popular posts -->
+
+                <div class="poll">
+                    <p class="poll__caption">Poll</p>
+                    <div class="poll__container">
+                        <form action="">
+                            <p class="poll__question">What do you think about site?</p>
+                            <input name="answer" type="radio" value="amazing" class="poll__choice answer1" onclick="radioBtnClick();"><span class="poll__answer poll__answer1">Amazing</span><br>
+                            <input name="answer" type="radio" value="good" class="poll__choice answer2" onclick="radioBtnClick();"><span class="poll__answer poll__answer2">Good</span><br>
+                            <input name="answer" type="radio" value="improved" class="poll__choice answer3" onclick="radioBtnClick();"><span class="poll__answer poll__answer3">Can Be Improved</span><br>
+                            <input name="answer" type="radio" value="nc" class="poll__choice answer4" onclick="radioBtnClick();"><span class="poll__answer poll__answer4">Not Comments</span><br>
+                            <input type="submit" value="Vote" class="poll__vote-btn">
+                            <input type="submit" value="View Results" class="poll__results-btn">
+                        </form>
+                    </div>
+                </div> <!-- закончен блок Poll -->
+
             </div>
 
             <div class="column-3">
@@ -266,7 +313,30 @@
                     <a href="#" class="join-us__twitter"><div class="join-us__twitter-img"></div></a>
                     <a href="#" class="join-us__rss"><div class="join-us__rss-img"></div></a>
                 </div>
+
+                <div class="sponsor">
+                    <div class="sponsor__caption">Sponsor</div>
+                    <div class="sponsor__img1"></div>
+                    <div class="sponsor__small">
+                        <div class="sponsor__img2"></div>
+                        <div class="sponsor__img3"></div>
+                    </div>
+                </div>
+
+                <div class="login">
+                    <p class="login__caption">Login</p>
+                    <div class="login__container">
+                        <input type="text" placeholder="Username" class="login__input"><br>
+                        <input type="password" placeholder="......" class="login__input"><br>
+                        <input type="submit" value="Log in" class="login__btn">
+                        <input type="checkbox"><span class="login__remember">Remember Me</span><br>
+                        <p class="login__lost">Lost your password?</p>
+                    </div>
+                </div>
+
             </div>
+
+
 
         </section>
 

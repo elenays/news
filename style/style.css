@@ -24,7 +24,7 @@
     url('../fonts/roboto-v18-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
     url('../fonts/roboto-v18-latin-700.svg#Roboto') format('svg'); /* Legacy iOS */
 }
-body {
+body,p {
     margin: 0;
 
 }
@@ -435,4 +435,245 @@ body {
     background-image: url("../img/rss.png");
     height: 105px;
     width: 87px;
+}
+
+/*------- News in Picture ------*/
+
+.news-picture__container{
+    border-top: 2px solid #000;
+    box-shadow: 0 0 10px #e3e3e3;
+    padding: 20px;
+    margin: 0 0 0 40px;
+}
+
+.news-picture__caption {
+    font: 16px Roboto;
+    color: #2d2d2d;
+    font-weight: 700;
+    margin: 0;
+    padding: 44px 0 12px 43px;
+}
+
+.news-picture__main-picture {
+    background-image: url("../img/picture1.jpg");
+    height: 241px;
+    width: 260px;
+    margin: 0 20px 0 0;
+}
+
+.news-picture__other1 {
+    background-image: url("../img/picture2.jpg");
+    height: 74px;
+    width: 74px;
+}
+
+.news-picture__other2 {
+    background-image: url("../img/picture3.jpg");
+    height: 74px;
+    width: 74px;
+    margin: 0 18px 0 18px;
+}
+
+.news-picture__other3 {
+    background-image: url("../img/picture4.jpg");
+    height: 74px;
+    width: 74px;
+}
+
+.news-picture__other4 {
+    background-image: url("../img/picture5.jpg");
+    height: 74px;
+    width: 74px;
+}
+
+.news-picture__other5 {
+    background-image: url("../img/picture6.jpg");
+    height: 74px;
+    width: 74px;
+    margin: 0 18px 0 18px;
+}
+
+.news-picture__other6 {
+    background-image: url("../img/picture7.jpg");
+    height: 74px;
+    width: 74px;
+}
+
+.news-picture__other7 {
+    background-image: url("../img/picture8.jpg");
+    height: 74px;
+    width: 74px;
+}
+
+.news-picture__other8 {
+    background-image: url("../img/picture9.jpg");
+    height: 74px;
+    width: 74px;
+    margin: 0 18px 0 18px;
+}
+
+.news-picture__other9 {
+    background-image: url("../img/picture10.jpg");
+    height: 74px;
+    width: 74px;
+}
+
+.news-picture__container {
+    display: flex;
+}
+
+.news-picture__line1 {
+     display: flex;
+    margin: 0 0 9px 0;
+ }
+
+.news-picture__line2 {
+    display: flex;
+    margin: 0 0 9px 0;
+}
+
+.news-picture__line3 {
+    display: flex;
+}
+
+/*-------- Sponsor ------*/
+
+.sponsor {
+    margin: 47px 0 0 20px;
+    border: 1px solid #eaeaea;
+    padding: 5px ;
+}
+
+.sponsor__img1 {
+    background-image: url("../img/sponsor1.jpg");
+    height: 125px;
+    width: 260px;
+    margin: 0;
+}
+
+.sponsor__img2 {
+    background-image: url("../img/sponsor2.jpg");
+    height: 125px;
+    width: 125px;
+    margin: 10px 10px 0 0;
+}
+
+.sponsor__img3 {
+    background-image: url("../img/sponsor3.jpg");
+    height: 125px;
+    width: 125px;
+    margin: 10px 0 0 0;
+}
+
+.sponsor__small {
+    display: flex;
+    margin: 0;
+}
+
+.sponsor__caption {
+    font: 11px "Roboto Lt";
+    color: #eaeaea;
+
+}
+
+/*------ Poll -----*/
+
+.poll__caption {
+    font: 16px Roboto;
+    color: #2d2d2d;
+    font-weight: 700;
+    margin: 0;
+    padding: 42px 0 12px 23px;
+}
+
+.poll__container {
+    border-top: 2px solid #000;
+    box-shadow: 0 0 10px #e3e3e3;
+    padding: 20px;
+    margin: 0 0 0 20px;
+}
+
+.poll__question {
+    font: 16px Roboto;
+    color: #2d2d2d;
+    margin: 3px 0 24px 0;
+}
+
+.poll__choice {
+    margin: 0 0 18px 0;
+}
+
+.poll__choice:checked {
+    background-color: #55b2f3;
+}
+
+.poll__answer {
+    font: 14px Roboto;
+    color: #2d2d2d;
+    margin: 0 0 0 11px;
+}
+
+.poll__vote-btn {
+    height: 32px;
+    width: 70px;
+    background-color: #55b2f3;
+    color: #fff;
+    border: none;
+    font: 15px Roboto;
+    margin: 21px 10px 0 0;
+}
+
+.poll__results-btn {
+    height: 32px;
+    width: 126px;
+    background-color: #2d2d2d;
+    color: #fff;
+    border: none;
+    font: 15px Roboto;
+}
+
+/*----- Login ------*/
+
+.login__caption {
+    font: 16px Roboto;
+    color: #2d2d2d;
+    font-weight: 700;
+    margin: 0;
+    padding: 42px 0 12px 23px;
+}
+
+.login__container {
+    border-top: 2px solid #000;
+    box-shadow: 0 0 10px #e3e3e3;
+    padding: 23px 20px 20px 20px;
+    margin: 0 0 0 20px;
+}
+
+.login__input {
+    height: 38px;
+    width: 225px;
+    margin: 0 0 11px 0;
+    padding: 0 0 0 17px;
+    background-color: #f8f8f8;
+    border: 1px solid #e5e5e5;
+}
+
+.login__btn {
+    height: 32px;
+    width: 79px;
+    background-color: #55b2f3;
+    color: #fff;
+    border: none;
+    font: 15px Roboto;
+}
+
+.login__remember {
+    font: 12px Roboto;
+    color: #9f9f9f;
+}
+
+.login__lost {
+    font: 12px Roboto;
+    color: #636363;
+    margin: 19px 0 0 0;
 }
