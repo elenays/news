@@ -31,7 +31,7 @@ body,p {
 
 .background {
     background-image: url("../img/background.png");
-    height: 4059px;
+    height: 3059px;
     width: 100%;
 }
 
@@ -208,6 +208,7 @@ body,p {
     background-color: #fff;
     margin: 0;
     display: flex;
+    padding: 0 0 50px 0;
 }
 
 /*-------- Latest Posts -------*/
@@ -1184,3 +1185,221 @@ body,p {
     cursor: pointer;
 }
 
+/*------ Video Widget -----*/
+
+.video__caption {
+    font: 16px Roboto;
+    color: #2d2d2d;
+    font-weight: 700;
+    margin: 0;
+    padding: 40px 0 12px 42px;
+}
+
+.video__container {
+    border-top: 2px solid #000;
+    box-shadow: 0 0 10px #e3e3e3;
+    padding: 23px 20px 20px 20px;
+    margin: 0 0 0 20px;
+}
+
+.video__img {
+    background-image: url("../img/video.png");
+    height: 178px;
+    width: 240px;
+}
+
+/*------- Recent Comments ------*/
+
+.recent__caption {
+    font: 16px Roboto;
+    color: #2d2d2d;
+    font-weight: 700;
+    margin: 0;
+    padding: 40px 0 12px 42px;
+}
+
+.recent__container {
+    border-top: 2px solid #000;
+    box-shadow: 0 0 10px #e3e3e3;
+    padding: 23px 20px 20px 20px;
+    margin: 0 0 0 20px;
+}
+
+.recent__block {
+    display: flex;
+}
+
+.recent__img1 {
+    background-image: url("../img/recent-img1.jpg");
+    height: 70px;
+    width: 70px;
+    margin: 0 19px 20px 0;
+}
+
+.recent__img2 {
+    background-image: url("../img/recent-img2.jpg");
+    height: 70px;
+    width: 70px;
+    margin: 0 19px 20px 0;
+}
+
+.recent__img3 {
+    background-image: url("../img/recent-img3.jpg");
+    height: 70px;
+    width: 70px;
+    margin: 0 19px 20px 0;
+}
+
+.recent__img4 {
+    background-image: url("../img/recent-img4.jpg");
+    height: 70px;
+    width: 70px;
+    margin: 0 19px 0 0;
+}
+
+.recent__title {
+    font: 14px Roboto;
+    font-weight: 700;
+    color: #383d40;
+}
+
+.recent__text {
+    font: 12px Roboto;
+    color: #383d40;
+    display: block;
+    text-decoration: none;
+    margin: 5px 0 5px 0;
+}
+
+.recent__date {
+    font: 12px Roboto;
+    color: #d1d5d7;
+}
+
+/*----- footer -----*/
+
+.footer {
+    background-color: #2d2d2d;
+    padding: 50px 40px 20px 40px;
+}
+
+.footer__main {
+    display: flex;
+}
+
+.footer__column1-logo {
+    background-image: url("../img/logo.png");
+    height: 34px;
+    width: 95px;
+}
+
+.footer__column1-text {
+    font: 13px Roboto;
+    color: #cacaca;
+    line-height: 1.5;
+    margin: 31px 0 30px 0;
+}
+
+.footer__column1-email {
+    font: 13px Roboto;
+    color: #cacaca;
+}
+
+.footer__column2-logo {
+    font: 20px Roboto;
+    color: #fff;
+    margin: 0 0 32px 0;
+}
+
+.footer__column2-block {
+    display: flex;
+}
+
+.footer__column2-img1 {
+    background-image: url("../img/random1.jpg");
+    height: 80px;
+    width: 80px;
+    margin: 0 20px 20px 0;
+}
+
+.footer__column2-text {
+    font: 14px Roboto;
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
+
+.footer__column2-icons {
+    display: flex;
+    margin: 18px 0 0 0;
+}
+
+.footer__column2-img2 {
+    background-image: url("../img/random2.jpg");
+    height: 80px;
+    width: 80px;
+    margin: 0 20px 20px 0;
+}
+
+.footer__column2-img3 {
+    background-image: url("../img/random3.jpg");
+    height: 80px;
+    width: 80px;
+    margin: 0 20px 20px 0;
+}
+
+.footer__hr1 {
+    background-color: #414141;
+    height: 353px;
+    width: 1px;
+    margin: 0 43px 0 31px;
+}
+
+.footer__hr2 {
+    background-color: #414141;
+    height: 353px;
+    width: 1px;
+    margin: 0 39px 0 48px;
+}
+
+.footer__column3__caption {
+    font: 20px Roboto;
+    color: #fff;
+    margin: 0 0 29px 0;
+}
+
+.footer__hr3 {
+    background-color: #414141;
+    height: 1px;
+    width: 100%;
+    margin: 40px 0 22px 0;
+}
+
+.footer__rights {
+    font: 12px Roboto;
+    color: #878787;
+    margin: 0 270px 0 0;
+}
+
+.footer__link {
+    display: block;
+    font: 14px Roboto;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 40px 0 25px;
+}
+
+.footer__links {
+    display: flex;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer__bottom-hr {
+    background-color: #414141;
+    height: 16px;
+    width: 1px;
+}
