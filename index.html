@@ -10,21 +10,13 @@
 </head>
 <body>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="js/main.js"></script>
+
 
 <div class="background">
     <div class="wrapper">
 
         <header class="header">
-
             <nav class="nav">
-                <div class="nav__icon">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
                 <div class="logo"></div>
                 <div class="links__container">
                     <a class="link" href="">Categories</a>
@@ -38,7 +30,20 @@
                     <a class="link" href="">Contact</a>
                 </div>
                 <input type="text" class="nav__search">
+                <div class="nav__icon" onClick="openMenu()"></div>
             </nav>
+
+            <div class="menu">
+                <a class="menu__link" href="">Categories</a>
+                <div class="menu__line"></div>
+                <a class="menu__link" href="">Forums</a>
+                <div class="menu__line"></div>
+                <a class="menu__link" href="">Shop</a>
+                <div class="menu__line"></div>
+                <a class="menu__link" href="">Shortcodes</a>
+                <div class="menu__line"></div>
+                <a class="menu__link" href="">Contact</a>
+            </div>
 
             <div class="breaking-news">
                 <div class="breaking-news__img">
@@ -407,10 +412,10 @@
                     <div class="poll__container">
                         <form action="">
                             <p class="poll__question">What do you think about site?</p>
-                            <input name="answer" type="radio" value="amazing" class="poll__choice answer1" onclick="radioBtnClick();"><span class="poll__answer poll__answer1">Amazing</span><br>
-                            <input name="answer" type="radio" value="good" class="poll__choice answer2" onclick="radioBtnClick();"><span class="poll__answer poll__answer2">Good</span><br>
-                            <input name="answer" type="radio" value="improved" class="poll__choice answer3" onclick="radioBtnClick();"><span class="poll__answer poll__answer3">Can Be Improved</span><br>
-                            <input name="answer" type="radio" value="nc" class="poll__choice answer4" onclick="radioBtnClick();"><span class="poll__answer poll__answer4">Not Comments</span><br>
+                            <div class="poll__block"><input name="answer" type="radio" value="amazing" class="poll__choice"><span class="poll__answer">Amazing</span></div>
+                            <div class="poll__block"><input name="answer" type="radio" value="good" class="poll__choice"><span class="poll__answer">Good</span></div>
+                            <div class="poll__block"><input name="answer" type="radio" value="improved" class="poll__choice"><span class="poll__answer">Can Be Improved</span></div>
+                            <div class="poll__block"><input name="answer" type="radio" value="nc" class="poll__choice"><span class="poll__answer">Not Comments</span></div>
                             <input type="submit" value="Vote" class="poll__vote-btn">
                             <input type="submit" value="View Results" class="poll__results-btn">
                         </form>
@@ -740,5 +745,10 @@
 
     </div>
 </div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="js/main.js"></script>
+
 </body>
 </html>
